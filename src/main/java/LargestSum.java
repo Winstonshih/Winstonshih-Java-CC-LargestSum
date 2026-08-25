@@ -16,7 +16,7 @@ public class LargestSum {
             for(int j=i+1;j<nums.size();j++)
             {
                 if(i!=j)
-                {}
+                {
                     if((nums.get(i)+nums.get(j))>sum)
                     {
                         sum=nums.get(i)+nums.get(j);
