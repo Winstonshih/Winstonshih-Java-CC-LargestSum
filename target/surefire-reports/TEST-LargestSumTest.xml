@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="2" name="LargestSumTest" time="0.008" errors="0" skipped="0">
+<testsuite tests="4" failures="2" name="LargestSumTest" time="0.012" errors="0" skipped="0">
   <properties>
     <property name="jansi.mode" value="force"/>
     <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
@@ -56,9 +56,9 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="sun.cpu.endian" value="little"/>
   </properties>
-  <testcase classname="LargestSumTest" name="sumTest1" time="0.003"/>
+  <testcase classname="LargestSumTest" name="sumTest1" time="0.007"/>
   <testcase classname="LargestSumTest" name="sumTest2" time="0"/>
-  <testcase classname="LargestSumTest" name="sumTest3" time="0.003">
+  <testcase classname="LargestSumTest" name="sumTest3" time="0.005">
     <failure message="expected:&lt;9&gt; but was:&lt;5&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;9&gt; but was:&lt;5&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -99,7 +99,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="LargestSumTest" name="sumTest4" time="0.002">
+  <testcase classname="LargestSumTest" name="sumTest4" time="0">
     <failure message="expected:&lt;10&gt; but was:&lt;5&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;10&gt; but was:&lt;5&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
